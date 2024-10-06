@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Proceed to Payment</title>
+    <style>
+        /* General Page Styles */
+        body {
+            margin: 0;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color: black;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        /* Header and Main Section */
+        header {
+            background-color: rgb(4, 57, 4);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 32px;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 40px 20px;
+            flex: 1;
+        }
+
+        .main-content h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        /* Button Styles */
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .cta-buttons a {
+            padding: 15px 30px;
+            text-decoration: none;
+            background-color: #e94560;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            size: larger;
+        }
+
+        .cta-buttons a:hover {
+            background-color: #e62e4d;
+        }
+
+        .secondary-button {
+            background-color: #e94560;
+        }
+
+        .secondary-button:hover {
+            background-color: #d6334c;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: rgb(4, 57, 4);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cta-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .cta-buttons a {
+                width: 80%;
+                margin: 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Complete Your Registration</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <h2>Are you ready to proceed?</h2>
+        <p>Choose to proceed to payment or talk to one of our Academy Representatives for more details.</p>
+        
+        <div class="cta-buttons">
+            <!-- Proceed to Payment Button -->
+            <a href="https://selar.co/919b42" target="_blank">Proceed to Payment</a>
+            
+            <!-- Speak to Academy Representative Button -->
+            <a href="https://wa.me/message/FYZGBD3UWUGEF1" target="_blank" class="secondary-button">Speak to an Academy Rep</a>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Academy Name. All Rights Reserved.</p>
+        <p>Contact us: <a href="mailto:support@example.com">support@example.com</a></p>
+    </footer>
+
+</body>
+</html>
